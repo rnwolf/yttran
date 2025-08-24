@@ -1,6 +1,6 @@
 [project]
 name = "yttran"
-version = "0.2.1"
+version = "0.2.2"
 description = "A simple CLI to fetch plain text transcripts in english from YouTube videos. Powered by youtube-transcript-api. Cached to local disk."
 readme = "README.md"
 license = { file = "LICENCE.md" }
@@ -22,7 +22,7 @@ Repository = "https://github.com/rnwolf/yttran.git"
 
 
 [project.scripts]
-yttan = "yttran.cli:main"
+yttran = "yttran.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.8.13,<0.9.0"]

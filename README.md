@@ -18,7 +18,7 @@ uvx run youtube_transcript_api <first_video_id> <second_video_id> ... --language
 
 I need to be able to run a short command and specify only the youtube video so that I can pipe transcript into AI analysis and summarization tools.  I also what to save the transacript into a local cache to I don't need to fetch it again.
 
-Further processing to extract summaries and wisdonm can be done with tools like Claude AI, ChatGPT or [Fabric](https://github.com/danielmiessler/fabric).
+Further processing to extract summaries and wisdom can be done with tools like Claude AI, ChatGPT or [Fabric](https://github.com/danielmiessler/fabric).
 
 Insummary, in order to maximize learning from Youtube videos...
 
