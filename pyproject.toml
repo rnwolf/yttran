@@ -1,0 +1,18 @@
+[project]
+name = "yttran"
+version = "0.2.0"
+description = "A simple CLI to fetch plain text transcripts in english from YouTube videos. Powered by youtube-transcript-api. Cached to local disk."
+readme = "README.md"
+license = { file = "LICENCE.md" }
+requires-python = ">=3.8"
+dependencies = ["youtube-transcript-api>=0.6.2"]
+authors = [
+    { name = "Rudiger Wolf", email = "rudiger.wolf@throughputfocus.com" }
+]
+
+[project.scripts]
+yttan = "yttran.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.8.13,<0.9.0"]
+build-backend = "uv_build"
