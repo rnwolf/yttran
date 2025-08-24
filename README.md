@@ -1,4 +1,4 @@
-# yttan
+# yttran
 
 `yttran` (“YouTube Transcript”) is a lightweight CLI tool that allows you to quickly fetch the **plain transcript text** from YouTube videos without downloading the video itself. It leverages the official `youtube-transcript-api` and can be run via [uvx](https://github.com/astral-sh/uvx) for easy, one-step usage.
 

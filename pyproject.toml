@@ -1,6 +1,6 @@
 [project]
 name = "yttran"
-version = "0.2.0"
+version = "0.2.1"
 description = "A simple CLI to fetch plain text transcripts in english from YouTube videos. Powered by youtube-transcript-api. Cached to local disk."
 readme = "README.md"
 license = { file = "LICENCE.md" }
