@@ -2,7 +2,6 @@
 
 `yttran` (“YouTube Transcript”) is a lightweight CLI tool that allows you to quickly fetch the **plain transcript text** from YouTube videos without downloading the video itself. It leverages the official `youtube-transcript-api` and can be run via [uvx](https://github.com/astral-sh/uvx) for easy, one-step usage.
 
-
 ---
 
 ## Problem
@@ -37,7 +36,12 @@ uv manages project dependencies and environments for python packages.
 
 See https://docs.astral.sh/uv/#installation
 
-## Install during development for testing
+## Code repository
+
+https://github.com/rnwolf/yttran
+
+
+## Install package during development for testing
 
 ```bash
 uv pip install .
@@ -51,7 +55,22 @@ Example run on MS-Windows:
 .\.venv\Scripts\yttran.exe https://www.youtube.com/watch?v=4b0iet22VIk > test-tran.txt
 ```
 
-## Installation
+## Publish Packge to PyPi for world to use
+
+Make sure verions number of package is incremented as required in pyproject.toml
+
+```bash
+uv build
+uv publish
+```
+You’ll need your PyPI credentials (username and password).
+
+After publishing, verify your package is live on PyPI by visiting:
+
+`https://test.pypi.org/project/yttran/`
+
+
+## Installation Published Public Package for use on local PC
 
 If you have [`uvx`](https://github.com/astral-sh/uvx) installed, you can run `yttan` directly from PyPI without manual dependency management:
 
